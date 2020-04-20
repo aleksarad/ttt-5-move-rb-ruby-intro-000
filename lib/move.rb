@@ -9,7 +9,7 @@ end
 # code your input_to_index and move method here!
 
 def input_to_index(input)
-  board[input.to_i + 1] = "X"
+  board[input.to_i - 1] = "X"
 end
 
 display_board(board)
