@@ -12,3 +12,5 @@ def input_to_index(input)
   board[input] = "X"
 end
 
+display_board(board)
+
